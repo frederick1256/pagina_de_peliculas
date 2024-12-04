@@ -1,0 +1,96 @@
+header {
+    width: 100%;
+    margin-bottom: 1%;
+    height: 75px;
+    padding-top: 1%;
+      
+}
+
+.contenedor {
+    width: 80%;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    background-color: rgb(5, 5, 5);
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+   
+
+    
+}
+.cajas{
+    border: 1px solid;
+}
+.post{
+    width: 100%;
+    height: 400px;
+
+}
+
+footer {
+    background-color: #626265;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    width: 100%;
+    height: 130px;
+}
+.navegador {
+    background-color:#626265;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    
+}
+
+.anchonavegador {
+    margin: 0 auto;
+    height: 50px;
+    width: 65%;
+}
+
+.anchonavegador ul {
+    position: relative;
+    left: 80%;
+    float: left;
+}
+
+.anchonavegador ul li {
+    color: white;
+    list-style: none;
+    float: left;
+    position: relative;
+    right: 50%;
+    margin: 10px;
+    margin-top: 15px;
+    text-transform:capitalize
+}
+
+.anchonavegador ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.anchonavegador ul li a:hover {
+    color: rgb(255, 255, 0);
+    transition: .4s;
+}
+
+
+.contactos-2{
+    
+    display: flex;
+}
+.redes{
+    background-color: aqua;
+    width: 650px;
+    text-align: center;
+    font-size: 100px;
+    list-style: none;
+    l
+}
+
